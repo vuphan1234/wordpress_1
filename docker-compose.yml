@@ -3,7 +3,7 @@ version: '3.8'
 services:
   wordpress:
     image: wordpress:latest
-    container_name: wordpress
+    container_name: wordpress-docker
     restart: always
     ports:
       - "8000:80"
